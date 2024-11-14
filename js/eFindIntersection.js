@@ -29,11 +29,11 @@ function FindIntersection(strArr) {
   
     interc  = ar1.filter(x => ar2.find(a => a === x))
     
-    // for(let i = 0; i < ar1.length; i++) {
-    //   if(ar2.includes(ar1[i])) {
-    //     interc2.push(ar2[i])
-    //   }
-    // }
+    for(let i = 0; i < ar1.length; i++) {
+      if(ar2.includes(ar1[i])) {
+        interc2.push(ar2[i])
+      }
+    }
   
   
     return strArr; 
