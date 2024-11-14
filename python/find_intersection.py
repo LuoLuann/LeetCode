@@ -22,7 +22,7 @@ def binary_search(arr, low, high, x):
         
         else:
             return binary_search(arr, mid + 1, high, x)
-            
+        
     else:
         return -1
         
